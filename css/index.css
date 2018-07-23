@@ -1,0 +1,74 @@
+/*重置样式*/
+body,ul,p,h1{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*banner start*/
+#banner{
+    position: relative;
+    width: 1226px;
+    height: 460px;
+    background-color: #33ccff;
+    margin: 10px auto 0 auto;
+}
+.f_left{
+    float: left;
+}
+.img_item{
+    display: none;
+    position: absolute;/*当父元素设置了relative之后，absolute才会参考父元素的*/
+}
+.btn_list{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    width: 120px;
+    height: 30px;
+}
+.btn_item{
+    float: left;
+    width: 6px;
+    height: 6px;
+    background: #797979;
+    border: 2px solid #b7b7b7;
+    border-radius: 6px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.btn_item:hover{
+    background: #e6e6e6;
+    border-color: #919191;
+}
+.active{
+    background: #e6e6e6;
+    border-color: #919191;
+}
+.tab_btn{
+    position: absolute;
+    width: 41px;
+    height: 69px;
+    top: 195px;
+    background: url('../images/icon-slides.png');
+    cursor: pointer;
+}
+.left{
+    left: 234px;
+    background-position-x: 83px;
+}
+.left:hover{
+    background-position: 166px;
+}
+.right{
+    right: 0;
+    background-position-x: 208px;
+}
+.right:hover{
+    background-position-x: 124px;
+}
+/*banner end*/
